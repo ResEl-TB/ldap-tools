@@ -1,0 +1,5 @@
+(library
+ (name ldap_tools)
+ (public_name ldap-tools)
+ (libraries ptime ptime.clock.os str)
+ (modules Ldap_filter Datetime))

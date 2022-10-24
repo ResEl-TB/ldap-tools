@@ -1,0 +1,6 @@
+(library
+ (name ppx_ldap_attrs)
+ (public_name ldap-tools.ppx_ldap_attrs)
+ (modules Ppx_ldap_attrs)
+ (kind ppx_rewriter)
+ (libraries ppxlib))

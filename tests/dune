@@ -1,0 +1,8 @@
+(rule
+ (alias runtest)
+ (action (run ./run_tests.exe)))
+
+(executable
+ (name run_tests)
+ (libraries alcotest ldap_tools)
+ (preprocess (pps ppx_ldap_attrs)))
